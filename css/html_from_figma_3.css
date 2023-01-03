@@ -7,7 +7,7 @@ input:focus::-webkit-input-placeholder{
 }
 
 input:focus{
-    box-shadow: 0px 0px 5px 0px #000;
+    box-shadow: 0px 0px 5px 0px #000; 
 }
 
 input{
@@ -596,7 +596,7 @@ ul {
 
 .second_block_button_link{
     font-size: 16px;
-    font-family: Arial;
+    font-family: "Roboto";
     font-weight: 500;
     color: white;
 }
@@ -681,6 +681,16 @@ ul {
     }
     .second_block_text{
         width: 100%;
+    } 
+    .blurry_image_for_video{
+        top: -40px;
+        right: 0px;
+        width: 100%;
+    }
+    .second_block_ripples{
+        display: none;
+        opacity: 0;
+        visibility: hidden;
     }
 }
 
